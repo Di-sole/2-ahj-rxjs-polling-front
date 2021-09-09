@@ -4,7 +4,7 @@
   "description": "[GitHub Pages]()",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --fix --ext .js,.jsx .",
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js"
   },

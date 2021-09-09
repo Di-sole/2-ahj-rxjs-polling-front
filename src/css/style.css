@@ -9,3 +9,46 @@ body {
   color: #363333;
   background-color: #dfdfdf;
 }
+
+.widget {
+  margin: 40px auto;
+  padding: 20px;
+  width: 650px;
+  background-color: #ffffff;
+}
+
+.widget-header-container {
+	margin-bottom: 15px;
+}
+
+.widget-header {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.widget-messages {
+	width: 100%;
+	border: 1px solid #363333;
+	border-collapse: collapse;
+}
+
+.message-element {
+  border-top: 1px solid #363333;
+}
+
+td {
+  padding: 12px;
+  vertical-align: top;
+}
+
+.message-author {
+	width: 35%;
+}
+
+.message-subject {
+	width: 35%;
+}
+
+.message-date {
+	width: 30%;
+}
