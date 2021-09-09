@@ -31,7 +31,7 @@ export default class Widget {
       .pipe(
         take(5),
         tap((v) => console.log(`Tap: ${v}`)),
-        concatMap(() => ajax.getJSON('https://rxjs-polling.herokuapp.com/')),
+        concatMap(() => ajax.getJSON('https://rxjs-polling.herokuapp.com/messages/unread/')),
         map((response) => response.messages),
       )
       .subscribe({
